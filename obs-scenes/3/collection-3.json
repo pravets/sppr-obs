@@ -1,0 +1,2269 @@
+{
+  "version": 2,
+  "name": "Стрим 3 участника",
+  "resolution": {
+    "x": 1920,
+    "y": 1080
+  },
+  "current_scene": "Все равны",
+  "current_program_scene": "Все равны",
+  "current_transition": "Fade",
+  "preview_locked": false,
+  "scaling_enabled": false,
+  "scene_order": [
+    {
+      "name": "Заставка"
+    },
+    {
+      "name": "Все равны"
+    },
+    {
+      "name": "Соло: Иосиф"
+    },
+    {
+      "name": "Соло: Роман"
+    },
+    {
+      "name": "Соло: Медведь"
+    }
+  ],
+  "sources": [
+    {
+      "prev_ver": 503316480,
+      "name": "Заставка",
+      "uuid": "b1b2c3d4-0000-4000-8000-000000000101",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 3,
+        "items": [
+          {
+            "name": "Картинка заставки",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000005",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1920,
+              "y": 1080
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Звук: foobar2000",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000006",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1920,
+              "y": 1080
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Все равны",
+      "uuid": "b1b2c3d4-0000-4000-8000-000000000102",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 924,
+              "y": 520
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 972,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 924,
+              "y": 520
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 526,
+              "y": 568
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 868,
+              "y": 488
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 496
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 988,
+              "y": 496
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 542,
+              "y": 1008
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Соло: Иосиф",
+      "uuid": "b1b2c3d4-0000-4000-8000-000000000103",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Соло: Роман",
+      "uuid": "b1b2c3d4-0000-4000-8000-000000000104",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Соло: Медведь",
+      "uuid": "b1b2c3d4-0000-4000-8000-000000000105",
+      "id": "scene",
+      "versioned_id": "scene",
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "private_settings": {}
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Видео: Иосиф",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://vdo.ninja/?view=iosif&room=ROOM&scale=100&cleandesign",
+        "width": 1920,
+        "height": 1080,
+        "css": "",
+        "reroute_audio": true
+      },
+      "mixers": 1,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": true,
+      "hotkeys": {},
+      "unversioned_id": "browser_source"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Видео: Роман",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://vdo.ninja/?view=roman&room=ROOM&scale=100&cleandesign",
+        "width": 1920,
+        "height": 1080,
+        "css": "",
+        "reroute_audio": true
+      },
+      "mixers": 1,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": true,
+      "hotkeys": {},
+      "unversioned_id": "browser_source"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Видео: Медведь",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+      "id": "browser_source",
+      "versioned_id": "browser_source",
+      "settings": {
+        "url": "https://vdo.ninja/?view=medved&room=ROOM&scale=100&cleandesign",
+        "width": 1920,
+        "height": 1080,
+        "css": "",
+        "reroute_audio": true
+      },
+      "mixers": 1,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": true,
+      "hotkeys": {},
+      "filters": [
+        {
+          "enabled": true,
+          "id": "shader_filter",
+          "name": "Мозаика",
+          "settings": {
+            "shader_text": "// pixelation (obs-shaderfilter)\nuniform float Target_Width<\n    string widget_type = \"slider\";\n    float minimum = 2.0;\n    float maximum = 2000.0;\n    float step = 1.0;\n> = 320.0;\nuniform float Target_Height<\n    string widget_type = \"slider\";\n    float minimum = 2.0;\n    float maximum = 2000.0;\n    float step = 1.0;\n> = 180.0;\nfloat4 mainImage(VertData v_in) : TARGET\n{\n    int px = max(1, int(uv_size.x / max(Target_Width, 2.0)));\n    int py = max(1, int(uv_size.y / max(Target_Height, 2.0)));\n    int x = int(v_in.uv.x * uv_size.x);\n    int y = int(v_in.uv.y * uv_size.y);\n    float2 t;\n    t.x = (float(x / px) * float(px) + float(px) / 2.0) / uv_size.x;\n    t.y = (float(y / py) * float(py) + float(py) / 2.0) / uv_size.y;\n    return image.Sample(textureSampler, t);\n}",
+            "from_file": false,
+            "Target_Width": 64,
+            "Target_Height": 36
+          },
+          "versioned_id": "shader_filter"
+        }
+      ],
+      "unversioned_id": "browser_source"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Картинка заставки",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000005",
+      "id": "image_source",
+      "versioned_id": "image_source",
+      "settings": {
+        "file": "C:/git/sppr-obs/obs-scenes/3/splash.png",
+        "unload": false
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "unversioned_id": "image_source"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Звук: foobar2000",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000006",
+      "id": "wasapi_process_output_capture",
+      "versioned_id": "wasapi_process_output_capture",
+      "settings": {
+        "window": ""
+      },
+      "mixers": 1,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "unversioned_id": "wasapi_process_output_capture"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Подпись: Иосиф",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+      "id": "text_gdiplus_v3",
+      "versioned_id": "text_gdiplus_v3",
+      "settings": {
+        "text": "Иосиф",
+        "font": {
+          "face": "Segoe UI",
+          "size": 34,
+          "flags": 1,
+          "style": "Bold"
+        },
+        "color": 16777215,
+        "opacity": 100,
+        "gradient": false,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90,
+        "bk_color": 0,
+        "bk_opacity": 60,
+        "outline": false,
+        "outline_size": 2,
+        "outline_color": 16777215,
+        "outline_opacity": 100,
+        "align": "center",
+        "valign": "center",
+        "extents": true,
+        "extents_wrap": false,
+        "extents_cx": 118,
+        "extents_cy": 40,
+        "antialiasing": true,
+        "transform": 0
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "unversioned_id": "text_gdiplus"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Подпись: Роман",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+      "id": "text_gdiplus_v3",
+      "versioned_id": "text_gdiplus_v3",
+      "settings": {
+        "text": "Роман",
+        "font": {
+          "face": "Segoe UI",
+          "size": 34,
+          "flags": 1,
+          "style": "Bold"
+        },
+        "color": 16777215,
+        "opacity": 100,
+        "gradient": false,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90,
+        "bk_color": 0,
+        "bk_opacity": 60,
+        "outline": false,
+        "outline_size": 2,
+        "outline_color": 16777215,
+        "outline_opacity": 100,
+        "align": "center",
+        "valign": "center",
+        "extents": true,
+        "extents_wrap": false,
+        "extents_cx": 118,
+        "extents_cy": 40,
+        "antialiasing": true,
+        "transform": 0
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "unversioned_id": "text_gdiplus"
+    },
+    {
+      "prev_ver": 503316480,
+      "name": "Подпись: Медведь",
+      "uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+      "id": "text_gdiplus_v3",
+      "versioned_id": "text_gdiplus_v3",
+      "settings": {
+        "text": "Медведь",
+        "font": {
+          "face": "Segoe UI",
+          "size": 34,
+          "flags": 1,
+          "style": "Bold"
+        },
+        "color": 16777215,
+        "opacity": 100,
+        "gradient": false,
+        "gradient_color": 16777215,
+        "gradient_opacity": 100,
+        "gradient_dir": 90,
+        "bk_color": 0,
+        "bk_opacity": 60,
+        "outline": false,
+        "outline_size": 2,
+        "outline_color": 16777215,
+        "outline_opacity": 100,
+        "align": "center",
+        "valign": "center",
+        "extents": true,
+        "extents_wrap": false,
+        "extents_cx": 144,
+        "extents_cy": 40,
+        "antialiasing": true,
+        "transform": 0
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "hotkeys": {},
+      "unversioned_id": "text_gdiplus"
+    }
+  ],
+  "scenes": [
+    {
+      "custom_color": -1,
+      "id": "b1b2c3d4-0000-4000-8000-000000000101",
+      "name": "Заставка",
+      "prev_zoom": 1,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 3,
+        "items": [
+          {
+            "name": "Картинка заставки",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000005",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1920,
+              "y": 1080
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Звук: foobar2000",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000006",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 0,
+              "y": 0
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1920,
+              "y": 1080
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "private_settings": {}
+    },
+    {
+      "custom_color": -1,
+      "id": "b1b2c3d4-0000-4000-8000-000000000102",
+      "name": "Все равны",
+      "prev_zoom": 1,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 924,
+              "y": 520
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 972,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 924,
+              "y": 520
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 526,
+              "y": 568
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 868,
+              "y": 488
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 496
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 988,
+              "y": 496
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 542,
+              "y": 1008
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "private_settings": {}
+    },
+    {
+      "custom_color": -1,
+      "id": "b1b2c3d4-0000-4000-8000-000000000103",
+      "name": "Соло: Иосиф",
+      "prev_zoom": 1,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "private_settings": {}
+    },
+    {
+      "custom_color": -1,
+      "id": "b1b2c3d4-0000-4000-8000-000000000104",
+      "name": "Соло: Роман",
+      "prev_zoom": 1,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "private_settings": {}
+    },
+    {
+      "custom_color": -1,
+      "id": "b1b2c3d4-0000-4000-8000-000000000105",
+      "name": "Соло: Медведь",
+      "prev_zoom": 1,
+      "settings": {
+        "custom_size": false,
+        "id_counter": 7,
+        "items": [
+          {
+            "name": "Видео: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000003",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 24,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 1265,
+              "y": 1032
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 1,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000001",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 24
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 2,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Видео: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000002",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1313,
+              "y": 376
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 2,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 583,
+              "y": 328
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 3,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Иосиф",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000007",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 288
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 4,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Роман",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000008",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 1329,
+              "y": 640
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 5,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          },
+          {
+            "name": "Подпись: Медведь",
+            "source_uuid": "a1b2c3d4-0000-4000-8000-000000000009",
+            "visible": true,
+            "locked": true,
+            "rot": 0,
+            "pos": {
+              "x": 40,
+              "y": 831
+            },
+            "scale": {
+              "x": 1,
+              "y": 1
+            },
+            "align": 5,
+            "bounds_type": 0,
+            "bounds_align": 0,
+            "bounds": {
+              "x": 0,
+              "y": 0
+            },
+            "blend_type": "normal",
+            "show_transition": {
+              "duration": 0
+            },
+            "hide_transition": {
+              "duration": 0
+            },
+            "id": 6,
+            "group_item_backup": false,
+            "scale_filter": "lanczos",
+            "blend_method": "default",
+            "private_settings": {}
+          }
+        ]
+      },
+      "mixers": 0,
+      "sync": 0,
+      "flags": 0,
+      "volume": 1,
+      "balance": 0.5,
+      "enabled": true,
+      "muted": false,
+      "private_settings": {}
+    }
+  ]
+}
